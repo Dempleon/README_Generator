@@ -16,7 +16,7 @@ const questions = [
     {
         type: 'input',
         message: 'What is the application description?',
-        name: 'desccription'
+        name: 'description'
     }, 
     {
         type: 'input',
@@ -41,15 +41,22 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    console.log('you are in the write file');
+    console.log(fileName);
+    console.log('data is==========='+ data);
+}
 
 // TODO: Create a function to initialize app
 function init() {
-    gen.generateMarkdown('some');
+
     inquirer.prompt(questions)
     .then((response) => {
-        console.log(response)
+        writeToFile('test.md', gen.generateMarkdown(JSON.stringify(response)));
     })
+    
+    
+
 }
 
 // Function call to initialize app
