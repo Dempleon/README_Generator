@@ -68,16 +68,17 @@ function renderLicenseSection(license) {
 function generateMarkdown(res) {
 
     const data = JSON.parse(res);
-    return `# ${data.title}
+    return `
+# ${data.title}
+${renderLicenseSection(data.license)}
 
-${renderLicenseSection(data.license)}<br>
 ## Description <br>
 ${data.description}
 
 ## Table of Contents
 [Installation](#Installation)<br>
 [Usage](#Usage)<br>
-[License](#${data.title})<br>
+[License](#${data.title.split(' ').join('-')})<br>
 [Contributing](#Contributing)<br>
 [Tests](#Tests)<br>
 [Questions](#Questions)<br>
