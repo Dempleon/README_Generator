@@ -28,7 +28,7 @@ const questions = [
     },
     {
         type: 'list',
-        message: 'Write a description of the application',
+        message: 'Choose the license the project is under',
         name: 'license',
         choices: ['MIT', 'APACHE 2.0', 'GPL V3', 'BSD 3-Clause License', 'None']
     }, 
@@ -44,12 +44,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'How do other developers contribute to the application?',
+        message: 'How can other developers contribute to the project?',
         name: 'contribution'
     },
     {
         type: 'input',
-        message: 'How will the application be tested?',
+        message: 'What commands should be run to run tests?',
         name: 'testing'
     }
 ];
