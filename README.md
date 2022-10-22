@@ -2,7 +2,7 @@
 # README Generator
 
 ## Description <br>
-This is a commandline application that generates a readme file. It runs on node.js and uses the inquirer package to prompt handle questions and response for the user.
+This is a commandline application that generates a readme file. It runs on node.js and uses the inquirer package to prompt handle questions and response for the user. The project also uses fs to write to a text to a markdown file.
 
 ## Table of Contents
 [Installation](#Installation)<br>
@@ -38,7 +38,7 @@ To install the application, users can clone down the repository to any directory
     ? How will the application be tested?
     ```
 - A GENERATED_README.md file will be generated in the same directory
-- [Demo Video on YouTube](https://www.youtube.com/watch?v=zqiqcrOaE-w&ab_channel=DempLeon)
+- [Demo Video on YouTube](https://www.youtube.com/watch?v=zqiqcrOaE-w)
 
 ## Contributing
 Developers can contribute to the project by forking it and merging the contributions.
