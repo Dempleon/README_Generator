@@ -9,7 +9,6 @@ This is a commandline application that generates a readme file. It runs on node.
 [Usage](#Usage)<br>
 [License](#README-Generator)<br>
 [Contributing](#Contributing)<br>
-[Tests](#Tests)<br>
 [Questions](#Questions)<br>
     
 
