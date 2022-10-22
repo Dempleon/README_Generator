@@ -38,6 +38,7 @@ To install the application, users can clone down the repository to any directory
     ? How will the application be tested?
     ```
 - A GENERATED_README.md file will be generated in the same directory
+- [Demo Video on YouTube](https://www.youtube.com/watch?v=zqiqcrOaE-w&ab_channel=DempLeon)
 
 ## Contributing
 Developers can contribute to the project by forking it and merging the contributions.
