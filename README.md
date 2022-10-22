@@ -16,6 +16,7 @@ This is a commandline application that generates a readme file. It runs on node.
 To install the application, users can clone down the repository to any directory that they wish.
 
 ## Usage
+- [Demo Video on YouTube](https://www.youtube.com/watch?v=zqiqcrOaE-w)
 - To use the application, the user must be in the same present working directory in the command line.
 - First install the dependencies by running the command:
     ```
@@ -35,10 +36,10 @@ To install the application, users can clone down the repository to any directory
     ? How do users install the application?
     ? How do users use the application
     ? How can other developers contribute to the project?
-    ? How will the application be tested?
+    ? What commands should be run to run tests?
     ```
 - A GENERATED_README.md file will be generated in the same directory
-- [Demo Video on YouTube](https://www.youtube.com/watch?v=zqiqcrOaE-w)
+
 
 ## Contributing
 Developers can contribute to the project by forking it and merging the contributions.
